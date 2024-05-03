@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:300,400,600,700,800|Rubik:400,500,700,900");
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #6a6560;
@@ -71,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Domine", serif;
+  font-family: "Be Vietnam Pro", serif;
   font-weight: 700;
   color: #2a2d2c;
   margin-top: 0px;
@@ -172,14 +172,12 @@ label {
 /*--
     - Font Famaly
 -----------------------------------------*/
-.rubik {
-  font-family: "Rubik", sans-serif; }
-
-.domine {
-  font-family: "Domine", serif; }
 
 .opensens {
   font-family: "Open Sans", sans-serif; }
+
+.bevnpro {
+  font-family: "Be Vietnam Pro", sans-serif; }
 
 /*--
     - Background color
@@ -1214,7 +1212,7 @@ label {
   letter-spacing: 2px;
   color: #2a2d2c;
   background: transparent;
-  font-family: "Rubik", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   line-height: 1;
   text-align: center;
   font-size: 14px; }
@@ -1230,7 +1228,7 @@ label {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-size: 14px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -1275,9 +1273,18 @@ label {
   color: #a19d98;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   font-size: 16px; }
+
+.about-heading h2{
+  font-family: "Be Vietnam Pro", serif;
+  font-weight: 700;
+  color: #2a2d2c;
+  margin-top: 0px;
+  font-style: normal;
+  text-transform: capitalize;
+}
 
 .title-span {
   color: #2a2d2c;
@@ -1286,11 +1293,11 @@ label {
   letter-spacing: 2px;
   margin-bottom: 10px;
   display: inline-block;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Be Vietnam Pro", sans-serif; }
 
 .title-heading {
   font-size: 55px;
-  font-family: "Domine", serif;
+  font-family: "Be Vietnam Pro", serif;
   line-height: 60px;
   margin-top: 10px;
   padding-bottom: 2; }
@@ -1428,7 +1435,7 @@ header {
     padding: 34px 0; }
     .main-menu ul li a {
       color: #b1b1b1;
-      padding: 15px 23px 10px;
+      padding: 15px 20px 10px;
       text-transform: uppercase;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -1487,9 +1494,11 @@ header {
 .header-btn {
   text-align: right;
   padding-top: 35px; }
-  .header-btn a {
+  .header-btn a  {
     padding: 15px 40px;
     border: 2px solid #E4CF78;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -1501,8 +1510,19 @@ header {
       background: #2a2d2c;
       color: #E4CF78;
       border: 2px solid #E4CF78;
-      padding: 15px 40px; }
-
+      padding: 15px 40px;
+      font-weight: 600;
+      font-family: "Be Vietnam Pro", sans-serif;
+      
+    }
+    .header-btn a:hover .fas {
+      display: none; /* Ẩn biểu tượng điện thoại */
+    }
+    .header-btn a:hover::before {
+      content: "0933374974";
+      display: inline-block; /* Hiển thị số điện thoại */
+      margin-right: 5px;
+    }
 /*----------------------------------------*/
 /* Homepage1 Header Area
 /*----------------------------------------*/
@@ -1534,12 +1554,12 @@ header {
 
 .support-text {
   line-height: 24px; }
-  .support-text li.rubik {
+  .support-text li.bevnpro {
     color: #6a6560; }
   .support-text li.opensens {
     color: #2a2d2c;
     font-weight: 700;
-    font-family: "Domine", serif;
+    font-family: "Be Vietnam Pro", serif;
     font-size: 16px; }
 
 .header-bottom.hp-1 {
@@ -1653,7 +1673,7 @@ header {
 .banner-content ul li {
   display: inline-block;
   text-transform: uppercase;
-  color: #bfaba2;
+  color: #E4CF78;
   letter-spacing: 2px;
   position: relative;
   padding: 0 10px;
@@ -1675,7 +1695,7 @@ header {
   content: "";
   height: 10px;
   width: 1px;
-  background: #bfaba2;
+  background: #E4CF78;
   top: 1px;
   left: -3px;
   position: absolute; }
@@ -1806,7 +1826,7 @@ header {
         min-height: 600px; } }
 
 .slider-content h6 {
-  color: #bfaba2; }
+  color: #E4CF78; }
 .slider-content h1 {
   font-size: 110px;
   color: #ffffff;
@@ -1841,7 +1861,7 @@ header {
   position: absolute;
   bottom: 100px;
   left: -40px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   color: #858988;
   text-transform: uppercase;
@@ -1865,7 +1885,7 @@ header {
   bottom: 0;
   padding-right: 45px;
   padding-bottom: 50px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
   right: 0;
   text-align: center; }
@@ -2036,7 +2056,11 @@ header {
 
 .about-text {
   margin-left: 30px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-text {
       margin-left: 0;
@@ -2191,7 +2215,9 @@ header {
 .feature-content h3 {
   margin: 0 auto;
   margin-bottom: 15px;
-  padding: 0 40px; }
+  padding: 0 40px;
+  font-family: "Be Vietnam Pro", sans-serif;
+ }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .feature-content h3 {
       font-size: 22px; } }
@@ -2320,7 +2346,7 @@ header {
   margin-bottom: 25px;
   padding-right: 20px;
   font-size: 46px;
-  font-family: "Domine", serif;
+  font-family: "Be Vietnam Pro", serif;
   line-height: 60px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .features2-content h2 {
@@ -2411,7 +2437,7 @@ header {
     margin: 0;
     font-weight: 500;
     margin-bottom: 30px;
-    font-family: "Rubik", sans-serif; }
+    font-family: "Be Vietnam Pro", sans-serif; }
   .service-content p {
     color: #ffffff;
     padding: 0 30px;
@@ -2732,7 +2758,7 @@ header {
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 2px;
-    font-family: "Rubik", sans-serif; }
+    font-family: "Be Vietnam Pro", sans-serif; }
 
 .team-join a {
   margin-top: 10px; }
@@ -3032,9 +3058,9 @@ header {
     .priceing-box {
       padding: 80px 15px; } }
   .priceing-box h6 {
-    color: #c2c2c2;
-    font-weight: 500;
-    font-family: "Rubik", sans-serif;
+    color: #e4cf78;
+    font-weight: 700;
+    font-family: "Be Vietnam Pro", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 25px; }
@@ -3066,7 +3092,7 @@ header {
   width: 200px;
   height: 200px;
   line-height: 200px;
-  background: #fff4e7;
+  background: #000000;
   margin: 0 auto;
   margin-bottom: 40px;
   border-radius: 50%;
@@ -3074,6 +3100,9 @@ header {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%; }
+
+.price-icon img {
+  width: 80%; }
 
 .plan-pricing .title-heading::after {
   left: 35px; }
@@ -3163,7 +3192,7 @@ header {
     color: #ec5598;
     text-transform: uppercase;
     margin-bottom: 13px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 500;
     letter-spacing: 2px; }
   .single-item h1 {
@@ -3191,7 +3220,7 @@ header {
   line-height: 1;
   margin-bottom: 25px; }
   .pricing-list li .fa-check {
-    color: #ec5598;
+    color: #e4cf78;
     margin-right: 5px; }
   .pricing-list li.times {
     color: #aab8c4; }
@@ -4568,7 +4597,7 @@ ul.cat li a:hover {
     border-radius: 50%;
     display: inline-block;
     color: #2a2d2c;
-    font-family: "Domine", serif;
+    font-family: "Be Vietnam Pro", serif;
     font-weight: 700;
     position: relative;
     background: #ffffff;
@@ -5306,4 +5335,22 @@ footer {
     background: #ec5598;
     color: #ffffff; }
 
-/*# sourceMappingURL=style.css.map */
+.footer-edit{
+  margin-bottom: 35px
+}
+
+.footer-edit p {
+  margin-bottom: 10px;
+  padding-right: 0px;
+  font-size: 16px;
+  font-weight: 500;  
+  color: #cacaca;
+}
+
+.footer-edit span{
+  color:#E4CF78;
+  font-size: 14px;
+}
+
+
+

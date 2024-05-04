@@ -195,7 +195,7 @@ label {
   background: #2a2d2c; }
 
 .pink-bg {
-  background: #ec5598; }
+  background: #E4CF78; }
 
 .blue-bg {
   background: #6a1b9a; }
@@ -213,7 +213,7 @@ label {
   color: #E4CF78; }
 
 .pink-color {
-  color: #ec5598; }
+  color: #E4CF78; }
 
 .blue-color {
   color: #6a1b9a; }
@@ -1251,7 +1251,7 @@ label {
 
 .blue-btn:hover, .pink-btn {
   color: #ffffff;
-  background: #ec5598; }
+  background: #E4CF78; }
 
 .brown-btn, .grey-btn:hover {
   color: #ffffff;
@@ -1549,7 +1549,7 @@ header {
       margin-right: 25px; } }
 
 .top-icon i {
-  color: #ec5598;
+  color: #E4CF78;
   margin-right: 10px; }
 
 .support-text {
@@ -1567,7 +1567,7 @@ header {
   z-index: 999; }
 
 .main-header {
-  background: #ec5598;
+  background: #E4CF78;
   padding: 0 20px; }
 
 .main-menu.hp-1 ul {
@@ -1592,7 +1592,7 @@ header {
 
 .main-menu.hp-1 ul li ul.sub-menu li:hover > a:hover {
   background: none;
-  color: #ec5598; }
+  color: #E4CF78; }
 
 .search-area {
   padding-right: 10px;
@@ -1924,7 +1924,7 @@ header {
       margin-top: 0; } }
 
 .slider-content.hp-1 h6 {
-  color: #ec5598; }
+  color: #E4CF78; }
 .slider-content.hp-1 h1 {
   color: #2a2d2c; }
 .slider-content.style-3 {
@@ -2274,7 +2274,7 @@ header {
         .features-wrapper h4 a {
           font-size: 20px; } }
       .features-wrapper h4 a:hover {
-        color: #ec5598; }
+        color: #E4CF78; }
   .features-wrapper p {
     color: #657583;
     margin-bottom: 18px; }
@@ -2286,7 +2286,7 @@ header {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
     .features-wrapper a:hover {
-      color: #ec5598; }
+      color: #E4CF78; }
   .features-wrapper:hover {
     background-color: white;
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
@@ -2829,7 +2829,7 @@ header {
 .single-content {
   padding: 30px 20px 15px 30px; }
   .single-content span {
-    color: #ec5598;
+    color: #E4CF78;
     text-transform: uppercase;
     padding-bottom: 15px;
     display: block;
@@ -2953,7 +2953,7 @@ header {
 .video-intro {
   background: #f6f7f8; }
   .video-intro span {
-    color: #ec5598;
+    color: #E4CF78;
     margin-bottom: 20px;
     display: block; }
   .video-intro h1 {
@@ -2979,7 +2979,7 @@ header {
     background: #ffffff;
     text-align: center;
     line-height: 30px;
-    color: #ec5598;
+    color: #E4CF78;
     box-shadow: 0px 16px 32px 0px rgba(236, 85, 152, 0.3);
     border-radius: 50%;
     margin-bottom: 20px;
@@ -2992,7 +2992,7 @@ header {
     font-size: 12px;
     float: left; }
   .intro-content ul li:hover i {
-    background: #ec5598;
+    background: #E4CF78;
     color: #ffffff; }
 .intro-content a {
   margin-top: 20px; }
@@ -3025,11 +3025,11 @@ header {
   text-align: center;
   border-radius: 50%;
   line-height: 120px;
-  color: #ec5598;
+  color: #E4CF78;
   transform: translateY(-50%); }
 
 .intro-img a:hover {
-  background: #ec5598;
+  background: #E4CF78;
   color: #ffffff; }
 
 /*----------------------------------------*/
@@ -3050,7 +3050,7 @@ header {
 .priceing-box {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  padding: 80px 60px; }
+  padding: 80px 60px 20px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .priceing-box {
       padding: 80px 15px; } }
@@ -3137,7 +3137,7 @@ header {
 
 .pricing-item.active {
   padding: 25px 60px;
-  background: #ec5598;
+  background: #E4CF78;
   color: #ffffff; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .pricing-item.active {
@@ -3152,7 +3152,7 @@ header {
     .pricing-item.active {
       padding: 10px 5px;
       background: none;
-      color: #ec5598; } }
+      color: #E4CF78; } }
 
 .single-item {
   padding: 75px;
@@ -3189,7 +3189,7 @@ header {
         border: 2px solid #d8dbff; } }
   .single-item h5 {
     font-size: 14px;
-    color: #ec5598;
+    color: #E4CF78;
     text-transform: uppercase;
     margin-bottom: 13px;
     font-family: "Be Vietnam Pro", sans-serif;
@@ -3373,7 +3373,7 @@ header {
   line-height: 36px;
   padding-bottom: 5px; }
   .blog-content h3 a:hover.hp-1 {
-    color: #ec5598; }
+    color: #E4CF78; }
 .blog-content p {
   padding-right: 30px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -3407,7 +3407,7 @@ header {
   .blog-arc a i {
     margin-right: 5px; }
   .blog-arc a:hover {
-    color: #ec5598; }
+    color: #E4CF78; }
 
 /* 19. Blog */
 .latest-news {
@@ -3511,7 +3511,7 @@ header {
   color: #E4CF78; }
 
 .post-meta span i {
-  color: #ec5598;
+  color: #E4CF78;
   margin-right: 2px; }
 
 .post-meta span a {
@@ -3971,7 +3971,7 @@ ul.cat li a:hover {
   margin-bottom: 7px; }
 
 .avatar-name span {
-  color: #ec5598;
+  color: #E4CF78;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4238,7 +4238,7 @@ ul.cat li a:hover {
   margin-bottom: 30px;
   position: relative; }
   .gallery-image::before {
-    background: #ec5598;
+    background: #E4CF78;
     content: "";
     height: 100%;
     left: 0;
@@ -4298,7 +4298,7 @@ ul.cat li a:hover {
   background: #ffffff; }
 
 .appointment-intro.hp-1 h6 {
-  color: #ec5598;
+  color: #E4CF78;
   margin-bottom: 25px; }
 .appointment-intro.hp-1 h2 {
   font-size: 46px;
@@ -4317,7 +4317,7 @@ ul.cat li a:hover {
     content: '';
     width: 100%;
     height: 100%;
-    background: #ec5598;
+    background: #E4CF78;
     opacity: 0.9;
     z-index: 1; }
 
@@ -4380,7 +4380,7 @@ ul.cat li a:hover {
       .appointment-content .name::before {
         top: 35px; } }
   .appointment-content .name:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content .email {
   width: 48%;
   position: relative; }
@@ -4398,7 +4398,7 @@ ul.cat li a:hover {
       .appointment-content .email::before {
         top: 35px; } }
   .appointment-content .email:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content .phone {
   width: 48%;
   margin-right: 4%;
@@ -4415,7 +4415,7 @@ ul.cat li a:hover {
     top: 35px;
     color: #a6a2bd; }
   .appointment-content .phone:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content .subject {
   width: 48%;
   position: relative; }
@@ -4439,9 +4439,9 @@ ul.cat li a:hover {
     color: #a6a2bd;
     right: 0; }
   .appointment-content .subject:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
   .appointment-content .subject:hover::after {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content .shedule-date {
   width: 48%;
   margin-right: 4%;
@@ -4466,9 +4466,9 @@ ul.cat li a:hover {
     color: #a6a2bd;
     right: 0; }
   .appointment-content .shedule-date:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
   .appointment-content .shedule-date:hover::after {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content .shedule-time {
   width: 48%;
   position: relative; }
@@ -4492,9 +4492,9 @@ ul.cat li a:hover {
     color: #a6a2bd;
     right: 0; }
   .appointment-content .shedule-time:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
   .appointment-content .shedule-time:hover::after {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content .massage {
   position: relative; }
   .appointment-content .massage::before {
@@ -4506,7 +4506,7 @@ ul.cat li a:hover {
     color: #a6a2bd;
     left: 0; }
   .appointment-content .massage:hover::before {
-    color: #ec5598; }
+    color: #E4CF78; }
 .appointment-content form input {
   width: 100%;
   background: transparent;
@@ -4535,7 +4535,7 @@ ul.cat li a:hover {
         padding: 15px 30px;
         margin-top: 20px; } }
   .appointment-content form input:hover {
-    border-color: #ec5598;
+    border-color: #E4CF78;
     color: #ffffff; }
 .appointment-content form select {
   width: 100%;
@@ -4556,7 +4556,7 @@ ul.cat li a:hover {
     .appointment-content form select {
       padding: 20px 30px; } }
   .appointment-content form select:hover {
-    border-color: #ec5598;
+    border-color: #E4CF78;
     color: #ffffff; }
 .appointment-content form textarea {
   width: 100%;
@@ -4572,7 +4572,7 @@ ul.cat li a:hover {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .appointment-content form textarea:hover {
-    border-color: #ec5598;
+    border-color: #E4CF78;
     color: #ffffff; }
 .appointment-content form button {
   border: none;
@@ -4895,7 +4895,7 @@ ul.cat li a:hover {
     .brand-area {
       min-height: 650px; } }
   .brand-area span {
-    color: #ec5598;
+    color: #E4CF78;
     margin-bottom: 20px;
     display: block; }
   .brand-area h1 {
@@ -5290,7 +5290,7 @@ footer {
     right: 15px;
     padding: 21px 25px;
     border: none;
-    background: #ec5598;
+    background: #E4CF78;
     color: #ffffff;
     cursor: pointer; }
 
@@ -5299,7 +5299,7 @@ footer {
   margin-bottom: 15px; }
 
 .feeds-icon {
-  color: #ec5598;
+  color: #E4CF78;
   margin-right: 20px;
   padding-top: 5px; }
 
@@ -5332,7 +5332,7 @@ footer {
 .footer-social-link.style-1 a {
   background: #151128; }
   .footer-social-link.style-1 a:hover {
-    background: #ec5598;
+    background: #E4CF78;
     color: #ffffff; }
 
 .footer-edit{
@@ -5352,5 +5352,19 @@ footer {
   font-size: 14px;
 }
 
+.in4 h5{
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
 
+.in4 p{
+  text-align: left;
+  padding: 0px;
+  font-size: 0.6rem;
+  line-height: 15px;
+  margin-top: 5px;
+}
 

@@ -11,6 +11,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
         <!-- Place favicon.ico in the root directory -->
 
+        <!-- Font here -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 		<!-- CSS here -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -24,6 +29,7 @@
         <link rel="stylesheet" href="assets/css/default.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
 
@@ -41,45 +47,18 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li>
-                                            <a href="index.html">home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="index.html">Homepage 01</a></li>
-                                                <li><a href="index-2.html">Homepage 02</a></li>
-                                                <li><a href="index-3.html">Homepage 03</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="about.html">about</a></li>
-                                        <li><a href="service-page.html">sevices</a></li>
-                                        <li><a href="gallery.html">gallery</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog Sidebar</a></li>
-                                                <li><a href="blog-2-col.html">Blog 2 Column</a></li>
-                                                <li><a href="blog-3-col.html">Blog 3 Column</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="booking.html">Booking</a></li>
-                                                <li><a href="offers.html">Offer</a></li>
-                                                <li><a href="gallery.html">Gallery</a></li>
-                                                <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                                <li><a href="service-page.html">Services</a></li>
-                                                <li><a href="service-details.html">Services Details</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="index.html">Trang chủ</a></li>                                     
+                                        <li><a href="about.html">Chúng tôi</a></li>
+                                        <li><a href="service-page.html">Dịch vụ</a></li>
+                                        <li><a href="gallery.html">hình ảnh</a></li>
+                                        <li><a href="#contact">Liên hệ</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-xl-3 d-none d-xl-block">
                             <div class="header-btn ">
-                                <a class="theme-btn" href="#"><i class="fas fa-phone"></i> make a call</a>
+                                <a class="theme-btn" href="#"><i class="fas fa-phone"></i> gọi ngay</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -95,13 +74,13 @@
         <main>
             <!-- Banner Area Start -->
             <section class="benner-area black-bg">
-                <div class="banner text-center d-flex align-items-center justify-content-center" style="background: url('./assets/img/slider/slider-01.png') center center / cover;">
+                <div class="banner text-center d-flex align-items-center justify-content-center" style="background: url('./assets/img/bg1.png') center center / cover;">
                     <div class="banner-content">
                         <ul>
-                            <li>Home</li>
-                            <li> Services</li>
+                            <li><a href="index.html">trang chủ</a></li>
+                            <li> Dịch vụ</li>
                         </ul>
-                        <h1>Our Services</h1>
+                        <h1>Chúng tôi mang đến</h1>
                     </div>
                 </div>
             </section>
@@ -110,112 +89,495 @@
             <!-- Service Archive -->
             <section class="service-archive pt-120 pb-60">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" style="justify-content: center;">
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="service-inner mb-50">
                                 <div class="service-img">
-                                    <img src="assets/img/services/services-09.png" alt="">
+                                    <img src="assets/img/service/gội gội.png" alt="">
                                 </div>
                                 <div class="service-arch-content text-center">
                                     <div class="service-icon">
                                         <img src="assets/img/icon/service-10.png" alt="">
                                     </div>
-                                    <h4><a href="#">Reflexology</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <ul>
-                                        <li><a href="#">30 / 60 / 90 minutes</a></li>
-                                        <li><a class="brown-color" href="#">$ 65 / 80 / 100</a></li>
-                                    </ul>
+                                    <div class="row">
+                                            <div class="col-xl-12">
+                                                <h4><a href="#">Gội đầu dưỡng sinh</a></h4>
+                                            </div>
+
+                                            <!-- thông tin menu và giá -->
+                                            <div class="col-xl-8">
+                                                <div class="in4">
+                                                    <h5>Super Vip</h5>
+                                                    <p>Gội đầu nước thảo dược, massage chuyên sâu mặt, đầu, cổ vai gáy, tay, lưng, chườm đá nóng, chân, sấy tóc.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                                <ul>
+                                                    <li><a href="#">115 phút</a></li>
+                                                    <li><a class="brown-color" href="#">379k</a></li>
+                                                </ul>                                                       
+                                            </div>  
+                                                                                    
+                                            <div class="col-xl-8">
+                                                <div class="in4">
+                                                    <h5>Combo Vip1</h5>
+                                                    <p>Gội đầu nước thảo dược, massage chuyên sâu mặt, đầu, cổ vai gáy, tay, lưng, chườm đá nóng, sấy tóc.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                                <ul>
+                                                    <li><a href="#">100 phút</a></li>
+                                                    <li><a class="brown-color" href="#">279k</a></li>
+                                                </ul>                                                       
+                                            </div>
+                                            
+                                            <div class="col-xl-8">
+                                                <div class="in4">
+                                                    <h5>Combo Đặc Biệt</h5>
+                                                    <p>Gội đầu nước thảo dược, massage chuyên sâu mặt, đầu, cổ vai gáy, tay, xông nến, tẩy tế bào chết da đầu, sấy tóc.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                                <ul>
+                                                    <li><a href="#">90 phút</a></li>
+                                                    <li><a class="brown-color" href="#">239k</a></li>
+                                                </ul>                                                       
+                                            </div>
+                                            
+                                            <div class="col-xl-8">
+                                                <div class="in4">
+                                                    <h5>Combo 1</h5>
+                                                    <p>Gội đầu nước thảo dược, massage chuyên sâu mặt, đầu, cổ vai gáy, tay, sấy tóc.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                                <ul>
+                                                    <li><a href="#">75 phút</a></li>
+                                                    <li><a class="brown-color" href="#">179k</a></li>
+                                                </ul>                                                       
+                                            </div>
+                                            
+                                            <div class="col-xl-8">
+                                                <div class="in4">
+                                                    <h5>Gội Thư Giãn</h5>
+                                                    <p>Gội thảo dược, rửa mặt, xịt toner, sấy tóc.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                                <ul>
+                                                    <li><a href="#">40 phút</a></li>
+                                                    <li><a class="brown-color" href="#">79k</a></li>
+                                                </ul>                                                       
+                                            </div>
+                                            <!-- kết thúc thông tin menu và giá-->
+
+                                    </div>                                   
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="service-inner mb-50">
                                 <div class="service-img">
-                                    <img src="assets/img/services/services-10.png" alt="">
+                                    <img src="assets/img/service/mass.png" alt="">
                                 </div>
                                 <div class="service-arch-content text-center">
                                     <div class="service-icon">
                                         <img src="assets/img/icon/service-11.png" alt="">
                                     </div>
-                                    <h4><a href="#">Body Wrap</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <ul>
-                                        <li><a href="#">30 / 60 / 90 minutes</a></li>
-                                        <li><a class="brown-color" href="#">$ 65 / 80 / 100</a></li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <h4><a href="#">Massage</a></h4>
+                                        </div>
+
+                                        <!-- thông tin menu và giá -->
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Massage Body Tinh Dầu</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">60 phút</a></li>
+                                                <li><a class="brown-color" href="#">280k</a></li>
+                                            </ul>                                                       
+                                        </div>  
+                                                                                
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Massage Body Đá Nóng + Ngâm Chân</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">75 phút</a></li>
+                                                <li><a class="brown-color" href="#">350k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Massage Foot + Chườm Túi Nóng + Ngâm Chân</h5>                 
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">60 phút</a></li>
+                                                <li><a class="brown-color" href="#">150k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Massage Lưng + Đá Nóng</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">30 phút</a></li>
+                                                <li><a class="brown-color" href="#">130k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Massage Cổ Vai Gáy + Đá Nóng</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">30 phút</a></li>
+                                                <li><a class="brown-color" href="#">100k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        <!-- kết thúc thông tin menu và giá-->
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="service-inner mb-50">
                                 <div class="service-img">
-                                    <img src="assets/img/services/services-11.png" alt="">
+                                    <img src="assets/img/service/nến tai.png" alt="">
                                 </div>
                                 <div class="service-arch-content text-center">
                                     <div class="service-icon">
                                         <img src="assets/img/icon/service-12.png" alt="">
                                     </div>
-                                    <h4><a href="#">Deep Cleaning</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <ul>
-                                        <li><a href="#">30 / 60 / 90 minutes</a></li>
-                                        <li><a class="brown-color" href="#">$ 65 / 80 / 100</a></li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <h4><a href="#">Gói TrảI Nghiệm Kèm</a></h4>
+                                        </div>
+
+                                        <!-- thông tin menu và giá -->
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Xông Nến Tai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">60 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">20k</a></li>
+                                            </ul>                                                       
+                                        </div>  
+                                                                                
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Tẩy tế bào chết da đầu</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">75 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">50k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Ngâm Chân thảo dược</h5>                 
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">60 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">50k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        <!-- kết thúc thông tin menu và giá-->
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="service-inner mb-50">
                                 <div class="service-img">
-                                    <img src="assets/img/services/services-12.png" alt="">
+                                    <img src="assets/img/service/da.png" alt="">
                                 </div>
                                 <div class="service-arch-content text-center">
                                     <div class="service-icon">
                                         <img src="assets/img/icon/service-13.png" alt="">
                                     </div>
-                                    <h4><a href="#">Collagen Treatments</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <ul>
-                                        <li><a href="#">30 / 60 / 90 minutes</a></li>
-                                        <li><a class="brown-color" href="#">$ 65 / 80 / 100</a></li>
-                                    </ul>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <h4><a href="#">Chăm sóc da</a></h4>
+                                        </div>
+
+                                        <!-- thông tin menu và giá -->
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Massage mặt cơ bản</h5>
+                                                <p>Có đắp mặt nạ</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">60 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">180k</a></li>
+                                            </ul>                                                       
+                                        </div>  
+                                                                                
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Cấy tảo/hồng sâm/HA</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">75 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">200k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Thải chì</h5>                 
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">60 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">150k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Cấy collagen tươi</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">250k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Cấy trắng/ủ baby face</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">300k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>nặn mụn cơ bản</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">250k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>nặn mụn chuyên sâu</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">300k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Chạy điện di vitamin C</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">300k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Cấy tế bào gốc</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">230k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Thải độc CO2</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">400k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        <!-- kết thúc thông tin menu và giá-->
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="service-inner mb-50">
                                 <div class="service-img">
-                                    <img src="assets/img/services/services-13.png" alt="">
+                                    <img src="assets/img/service/môi.png" alt="">
                                 </div>
                                 <div class="service-arch-content text-center">
                                     <div class="service-icon">
                                         <img src="assets/img/icon/service-14.png" alt="">
                                     </div>
-                                    <h4><a href="#">Facial Treatments</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <ul>
-                                        <li><a href="#">30 / 60 / 90 minutes</a></li>
-                                        <li><a class="brown-color" href="#">$ 65 / 80 / 100</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="service-inner mb-50">
-                                <div class="service-img">
-                                    <img src="assets/img/services/services-14.png" alt="">
-                                </div>
-                                <div class="service-arch-content text-center">
-                                    <div class="service-icon">
-                                        <img src="assets/img/icon/service-15.png" alt="">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <h4><a href="#">phun xăm</a></h4>
+                                        </div>
+
+                                        <!-- thông tin menu và giá -->
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Phun môi KLIPS</h5>
+                                                <!-- <p>Có đắp mặt nạ</p> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">60 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">2500k</a></li>
+                                            </ul>                                                       
+                                        </div>  
+                                                                                
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Phun môi phủ bóng collagen</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">75 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">2700k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8" style="align-content: center;">
+                                            <div class="in4">
+                                                <h5>Khử thâm môi</h5>                 
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">1500k/1 lần</a></li>
+                                                <li><a class="brown-color" href="#">2500k/2 lần</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Phun shading mày (nguyên thủy)</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">1500k</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>Phun mày (có nền cần chỉnh sửa)</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">1800k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>điêu khắc mày</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">2500k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>đi sợi HAIRSTROKE</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">3500k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8">
+                                            <div class="in4">
+                                                <h5>phun mí mở tròng</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <!-- <li><a href="#">30 phút</a></li> -->
+                                                <li><a class="brown-color" href="#">1000k</a></li>
+                                            </ul>                                                       
+                                        </div>
+
+                                        <div class="col-xl-8" style="align-content: center;">
+                                            <div class="in4">
+                                                <h5>hút dung dịch (mày/môi)</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4" style="align-content: center; padding-right: 0px;"> 
+                                            <ul>
+                                                <li><a href="#">500k/1 lần</a></li>
+                                                <li><a class="brown-color" href="#">800k/2 lần</a></li>
+                                            </ul>                                                       
+                                        </div>
+                                        <!-- kết thúc thông tin menu và giá-->
+
                                     </div>
-                                    <h4><a href="#">Massage Therapy</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <ul>
-                                        <li><a href="#">30 / 60 / 90 minutes</a></li>
-                                        <li><a class="brown-color" href="#">$ 65 / 80 / 100</a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -224,141 +586,102 @@
             </section>
             <!-- Service Archive -->
 
-            <!-- Service Price Start -->
-            <div class="service-price pt-90 pb-90" style="background: url('assets/img/cta-bg-01.png') center center / cover;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 offset-xl-6 offset-lg-4 ">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="service-price-inner mt-30 text-center">
-                                        <div class="pricing-amount">
-                                            <h6>basic</h6>
-                                            <h2>$47.37<sub>/mo</sub></h2>
-                                        </div>
-                                        <div class="pricing-content">
-                                            <ul>
-                                                <li>Traditional</li>
-                                                <li>Hot Stone</li>
-                                                <li>Lavender</li>
-                                                <li>Foot Massage</li>
-                                            </ul>
-                                            <a href="#" class="theme-btn">purchase</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="service-price-inner mt-30 text-center">
-                                        <div class="pricing-amount">
-                                            <h6>basic</h6>
-                                            <h2>$47.37<sub>/mo</sub></h2>
-                                        </div>
-                                        <div class="pricing-content">
-                                            <ul>
-                                                <li>Traditional</li>
-                                                <li>Hot Stone</li>
-                                                <li>Lavender</li>
-                                                <li>Foot Massage</li>
-                                            </ul>
-                                            <a href="#" class="black-btn">purchase</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Service Price End -->
-
-            <!-- Features Area Start -->
-            <section class="features-area pt-115 pb-90">
+            <!-- Priceing Area Start -->
+            <section class="price-area pt-115 pb-90" style="padding-top: 0px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="section-title mb-70 text-center mb-60">
-                                <span class="small-title">features</span>
-                                <h1 class="title-heading">Exclusive Features</h1>
+                            <div class="section-title mb-70 text-center">
+                                <span class="small-title">Gói</span>
+                                <h1 class="title-heading">Best-seller</h1>
                                 <img src="assets/img/brown-border-shape.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="feature-item text-center mb-30">
-                                <div class="feature-icon">
-                                    <img src="./assets/img/icon/features-01.png" alt="Features icon">
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="priceing-box text-center mb-30">
+                                <h6>Supper vip</h6>
+                                <div class="price">
+                                    <h3>
+                                        379k <sub>/115 phút</sub>
+                                    </h3>
                                 </div>
-                                <div class="feature-content">
-                                    <h3>Beauty & Clinic Service</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="price-icon">
+                                    <img src="./assets/img/Vip/vip.png" alt="">
                                 </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Gội đầu thảo dược</li>
+                                        <li><i class="fas fa-check"></i> Massage chuyên sâu</li>
+                                        <li><i class="fas fa-check"></i> Chườm đá nóng</li>
+                                        <li><i class="fas fa-check"></i> Chân</li>
+                                        <li><i class="fas fa-check"></i> Sấy tóc</li>
+                                        <li class="times"><i class="fas fa-times"></i> Xông nến</li>
+                                        <li class="times"><i class="fas fa-times"></i> Tẩy tế bào chết da đầu</li>                                        
+                                    </ul>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="feature-item text-center mb-30">
-                                <div class="feature-icon">
-                                    <img src="./assets/img/icon/features-02.png" alt="Features icon">
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="priceing-box text-center mb-30">
+                                <h6>Combo VIP 1</h6>
+                                <div class="price">
+                                    <h3>
+                                        279k <sub>/100 phút</sub>
+                                    </h3>
                                 </div>
-                                <div class="feature-content">
-                                    <h3>Clean Design Treatment</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="price-icon">
+                                    <img src="./assets/img/Vip/vip1.png" alt="">
                                 </div>
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Gội đầu thảo dược</li>
+                                        <li><i class="fas fa-check"></i> Massage chuyên sâu</li>
+                                        <li><i class="fas fa-check"></i> Chườm đá nóng</li>
+                                        <li class="times"><i class="fas fa-times"></i> Chân</li>
+                                        <li><i class="fas fa-check"></i> Sấy tóc</li>
+                                        <li class="times"><i class="fas fa-times"></i> Xông nến</li>
+                                        <li class="times"><i class="fas fa-times"></i> Tẩy tế bào chết da đầu</li> 
+                                    </ul>
+                                </div>
+                                <!-- <a class="border-btn" href="#">purchase Now</a> -->
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="feature-item text-center mb-30">
-                                <div class="feature-icon">
-                                    <img src="./assets/img/icon/features-03.png" alt="Features icon">
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="priceing-box text-center mb-30">
+                                <h6>Combo Đặc Biệt </h6>
+                                <div class="price">
+                                    <h3>
+                                        239k <sub>/90 phút</sub>
+                                    </h3>
                                 </div>
-                                <div class="feature-content">
-                                    <h3>Organic Kulk Service</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="price-icon">
+                                    <img src="./assets/img/Vip/special.png" alt="">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="feature-item text-center mb-30">
-                                <div class="feature-icon">
-                                    <img src="./assets/img/icon/features-04.png" alt="Features icon">
+                                <div class="pricing-list">
+                                    <li><i class="fas fa-check"></i> Gội đầu thảo dược</li>
+                                        <li><i class="fas fa-check"></i> Massage chuyên sâu</li>
+                                        <li class="times"><i class="fas fa-times"></i> Chườm đá nóng</li>
+                                        <li class="times"><i class="fas fa-times"></i> Chân</li>
+                                        <li><i class="fas fa-check"></i> Sấy tóc</li>
+                                        <li><i class="fas fa-check"></i> Xông nến</li>
+                                        <li><i class="fas fa-check"></i> Tẩy tế bào chết da đầu</li> 
                                 </div>
-                                <div class="feature-content">
-                                    <h3>Timeless Treatment Service</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="feature-item text-center mb-30">
-                                <div class="feature-icon">
-                                    <img src="./assets/img/icon/features-05.png" alt="Features icon">
-                                </div>
-                                <div class="feature-content">
-                                    <h3>Body Treatment Service</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="feature-item text-center mb-30">
-                                <div class="feature-icon">
-                                    <img src="./assets/img/icon/features-06.png" alt="Features icon">
-                                </div>
-                                <div class="feature-content">
-                                    <h3>Hair Masking Service</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Features Area End -->
+            <!-- Priceing Area End -->
         </main>
+
         <!-- Footer Area Start -->
         <footer>
             <!-- Footer Top Area Start -->
-            <section class="footer-area black-bg pt-115 pb-120">
+            <section class="footer-area black-bg pt-115 pb-120" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-6">
@@ -366,54 +689,44 @@
                                 <div class="footer-logo">
                                     <img src="./assets/img/logo.png" alt="">
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna
-                                    aliqua. Ut enim ad min im veniam, quis nostrud exercitation ullamco
-                                    nisi ut aliquip ex ea commodo consequat.</p>
-                                <div class="footer-social-link">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
+                                <p>Kiera Nguyen - Beauty Care là điểm đến lý tưởng cho những ai đang tìm kiếm trải nghiệm spa tuyệt vời và chăm sóc cá nhân chất lượng. Với đội ngũ chuyên gia làm đẹp giàu kinh nghiệm và các liệu pháp tiên tiến, chúng tôi cam kết mang lại cho khách hàng sự thư giãn tối đa và làn da rạng rỡ sau mỗi lần ghé thăm. Hãy để Kiera Nguyen - Beauty Care chăm sóc và làm mới bạn từ bên trong ra ngoài.</p>
+                                
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-5 col-md-6 d-flex justify-content-center">
-                            <div class="footer-widget pl-30">
-                                <h2>More Links</h2>
-                                <div class="footer-menu">
+                            <div class="footer-widget pl-30" style="padding-left: 0px;">
+                                <h2>Liên hệ chúng tôi tại</h2>
+                                <div class="footer-edit">
                                     <ul>
-                                        <li><a href="index.html">home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Appointment</a></li>
-                                        <li><a href="#">Treatments</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><p>Địa chỉ: <span>180 Ba Cu, Phường 3, Thành phố Vũng Tàu, Việt Nam</span></p></li>
+                                        <li><p>Thời gian mở cửa: <span>Thứ 2 - Chủ nhật từ 9:00 - 18h30</span></p></li>
+                                        <li><p>Số điện thoại / Zalo: <span>0933374974</span></p></li>
+                                        <li><p>Facebook: <span>Kiera Hương Nguyễn Beauty Center</span></p></li>
+                                        <li><p>Website: <span>https://kierabeauty.vn/</span></p></li>
+                                        <!-- <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Terms & Condintions</a></li>
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="#">Events</a></li>
-                                        <li><a href="#">Offers</a></li>
+                                        <li><a href="#">Offers</a></li> -->
+                                    </ul>
+                                </div>
+                                <div class="footer-social-link">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/profile.php?id=100088911540558"><i class="fab fa-facebook-f"></i></a></li>
+                                        <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
+                                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-12">
                             <div class="footer-widget">
-                                <h2>Get In Touch</h2>
+                                <h2>Vị trí của chúng tôi</h2>
                                 <div class="footer-contact">
-                                    <form action="#">
-                                        <div class="footer-email">
-                                            <input type="email" placeholder="Enter your email....">
-                                        </div>
-                                        <div class="footer-massage">
-                                            <textarea placeholder="Enter your message...."></textarea>
-                                        </div>
-                                        <button type="submit" class="theme-btn">Get An Action</button>
-                                    </form>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.869220813325!2d107.0763059759225!3d10.352340540526473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31756febbb234441%3A0xc2b3408273247ace!2zMTgwIEJhIEN1LCBQaMaw4budbmcgMywgVGjDoG5oIHBo4buRIFbFqW5nIFThuqd1LCBCw6AgUuG7i2EgLSBWxaluZyBUw6B1LCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1714763955048!5m2!1svi!2s" width="400px" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -422,17 +735,6 @@
             </section>
             <!-- Footer Top Area End -->
 
-            <section class="footer-bottom pt-25 pb-25 theme-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="copyright text-center">
-                                <h6>Copyright by@Example - 2019</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </footer>
         <!-- Footer Area End -->
         <!-- JS here -->
@@ -452,6 +754,23 @@
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+          
+                const target = document.querySelector(this.getAttribute('href'));
+                const targetTop = target.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                const offset = targetTop - (windowHeight / 2 - target.clientHeight / 2);
+          
+                window.scrollBy({
+                  top: offset,
+                  behavior: 'smooth'
+                });
+              });
+            });
+        </script>
 
     </body>
 </html>
